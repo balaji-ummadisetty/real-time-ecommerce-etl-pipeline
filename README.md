@@ -149,15 +149,3 @@ aws glue start-job-run --job-name ecommerce-etl-job
 # Query with Athena (see analytics/athena_queries.sql)
 # Load into Redshift (see analytics/redshift_schema.sql)
 ```
-
----
-
-## What I Practiced
-
-- Multi-topic Kafka architecture with a dead-letter queue
-- PySpark Structured Streaming with tumbling window aggregations
-- Layered S3 data lake design (raw → processed → aggregated → curated)
-- AWS Glue for automated schema discovery and batch ETL
-- Athena for serverless SQL on S3, Redshift for warehouse reporting
-- Docker-based local Kafka setup (KRaft mode, no Zookeeper)
-# real-time-ecommerce-etl-pipeline
