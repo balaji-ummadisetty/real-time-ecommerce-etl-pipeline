@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Claude
+.claude/
+
+# Environment
+.env
+
+# Spark checkpoints
+/tmp/spark-checkpoints/
+
+# macOS
+.DS_Store

@@ -1,0 +1,9 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+
+aws:
+  s3_bucket: "my-ecommerce-bucket"
+
+spark:
+  checkpoint_base: "/tmp/spark-checkpoints"
+  trigger_interval: "30 seconds"

@@ -1,0 +1,107 @@
+[
+  {
+    "event_id": "b4e2a1f3-8c7d-4a2e-b1f5-9d8e3c2a7b6f",
+    "event_type": "product_view",
+    "timestamp": "2024-03-15T14:23:47.381920+00:00",
+    "user_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "session_id": "s9f8e7d6-c5b4-a3f2-e1d0-c9b8a7f6e5d4",
+    "anonymous": false,
+    "user_segment": "returning",
+    "account_age_days": 423,
+    "page_url": "https://shop.example.com/products/p006",
+    "referrer": "https://www.google.com",
+    "search_query": null,
+    "product_id": "P006",
+    "category": "Electronics",
+    "session_duration_sec": 387,
+    "page_views_in_session": 8,
+    "is_bounce": false,
+    "device": {
+      "device_type": "desktop",
+      "os": "macOS",
+      "browser": "Chrome",
+      "app_version": "3.2.1",
+      "screen_resolution": "2560x1440"
+    },
+    "geo": {
+      "country": "United States",
+      "country_code": "US",
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.052235,
+      "longitude": -118.243683,
+      "timezone": "America/Los_Angeles"
+    },
+    "ab_test_variant": "variant_a"
+  },
+  {
+    "event_id": "c5f3b2e1-9d8c-4b3f-c2e1-0a9b8c7d6e5f",
+    "event_type": "search",
+    "timestamp": "2024-03-15T14:25:12.901234+00:00",
+    "user_id": "f1e2d3c4-b5a6-9870-dcba-fe9876543210",
+    "session_id": "t0g9f8e7-d6c5-b4a3-f2e1-d0c9b8a7f6e5",
+    "anonymous": true,
+    "user_segment": null,
+    "account_age_days": null,
+    "page_url": "https://shop.example.com/search?q=wireless+headphones",
+    "referrer": "https://www.instagram.com",
+    "search_query": "wireless headphones noise cancelling",
+    "product_id": null,
+    "category": null,
+    "session_duration_sec": 42,
+    "page_views_in_session": 2,
+    "is_bounce": false,
+    "device": {
+      "device_type": "mobile",
+      "os": "iOS",
+      "browser": "Safari",
+      "app_version": "2.4.1",
+      "screen_resolution": "390x844"
+    },
+    "geo": {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "London",
+      "state": "ENG",
+      "latitude": 51.507351,
+      "longitude": -0.127758,
+      "timezone": "Europe/London"
+    },
+    "ab_test_variant": "control"
+  },
+  {
+    "event_id": "d6g4c3f2-0e9d-5c4g-d3f2-1b0c9d8e7f6g",
+    "event_type": "add_to_cart",
+    "timestamp": "2024-03-15T14:27:08.445678+00:00",
+    "user_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "session_id": "s9f8e7d6-c5b4-a3f2-e1d0-c9b8a7f6e5d4",
+    "anonymous": false,
+    "user_segment": "returning",
+    "account_age_days": 423,
+    "page_url": "https://shop.example.com/products/p001",
+    "referrer": null,
+    "search_query": null,
+    "product_id": "P001",
+    "category": "Electronics",
+    "session_duration_sec": 510,
+    "page_views_in_session": 12,
+    "is_bounce": false,
+    "device": {
+      "device_type": "desktop",
+      "os": "macOS",
+      "browser": "Chrome",
+      "app_version": "3.2.1",
+      "screen_resolution": "2560x1440"
+    },
+    "geo": {
+      "country": "United States",
+      "country_code": "US",
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.052235,
+      "longitude": -118.243683,
+      "timezone": "America/Los_Angeles"
+    },
+    "ab_test_variant": "variant_a"
+  }
+]

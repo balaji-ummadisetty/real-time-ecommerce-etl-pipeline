@@ -1,0 +1,46 @@
+{
+  "Crawlers": [
+    {
+      "Name": "ecommerce-processed-crawler",
+      "Role": "AWSGlueServiceRole-ecommerce",
+      "DatabaseName": "ecommerce_processed",
+      "Description": "Crawls processed Parquet data written by the Spark streaming job",
+      "Targets": {
+        "S3Targets": [
+          { "Path": "s3://<YOUR_S3_BUCKET>/processed/user_activity/" },
+          { "Path": "s3://<YOUR_S3_BUCKET>/processed/purchases/" },
+          { "Path": "s3://<YOUR_S3_BUCKET>/processed/order_items/" }
+        ]
+      },
+      "SchemaChangePolicy": {
+        "UpdateBehavior": "UPDATE_IN_DATABASE",
+        "DeleteBehavior": "DEPRECATE_IN_DATABASE"
+      },
+      "RecrawlPolicy": {
+        "RecrawlBehavior": "CRAWL_NEW_FOLDERS_ONLY"
+      },
+      "Schedule": "cron(0 * * * ? *)"
+    },
+    {
+      "Name": "ecommerce-curated-crawler",
+      "Role": "AWSGlueServiceRole-ecommerce",
+      "DatabaseName": "ecommerce_curated",
+      "Description": "Crawls curated output produced by the Glue ETL job",
+      "Targets": {
+        "S3Targets": [
+          { "Path": "s3://<YOUR_S3_BUCKET>/curated/daily_sales/" },
+          { "Path": "s3://<YOUR_S3_BUCKET>/curated/category_performance/" },
+          { "Path": "s3://<YOUR_S3_BUCKET>/curated/funnel_metrics/" }
+        ]
+      },
+      "SchemaChangePolicy": {
+        "UpdateBehavior": "UPDATE_IN_DATABASE",
+        "DeleteBehavior": "DEPRECATE_IN_DATABASE"
+      },
+      "RecrawlPolicy": {
+        "RecrawlBehavior": "CRAWL_NEW_FOLDERS_ONLY"
+      },
+      "Schedule": "cron(30 1 * * ? *)"
+    }
+  ]
+}

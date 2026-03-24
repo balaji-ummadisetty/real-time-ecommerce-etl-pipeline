@@ -1,0 +1,132 @@
+[
+  {
+    "event_id": "e7h5d4g3-1f0e-6d5h-e4g3-2c1d0e9f8g7h",
+    "event_type": "purchase",
+    "timestamp": "2024-03-15T14:31:55.223456+00:00",
+    "user_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "session_id": "s9f8e7d6-c5b4-a3f2-e1d0-c9b8a7f6e5d4",
+    "order_id": "ORD-87234501",
+    "items": [
+      {
+        "product_id": "P001",
+        "product_name": "Wireless Noise-Cancelling Headphones",
+        "category": "Electronics",
+        "subcategory": "Audio",
+        "brand": "SoundMax",
+        "sku": "SM-WNC-001",
+        "price": 149.99,
+        "quantity": 1,
+        "discount_pct": 0.10,
+        "final_price": 134.99
+      },
+      {
+        "product_id": "P009",
+        "product_name": "Yoga Mat Premium",
+        "category": "Sports",
+        "subcategory": "Yoga",
+        "brand": "ZenFit",
+        "sku": "ZF-YMP-009",
+        "price": 45.99,
+        "quantity": 2,
+        "discount_pct": 0.0,
+        "final_price": 91.98
+      }
+    ],
+    "item_count": 3,
+    "subtotal": 226.97,
+    "tax": 20.43,
+    "shipping_cost": 7.99,
+    "discount_amount": 22.70,
+    "order_total": 232.69,
+    "coupon_code": "SAVE10",
+    "shipping_method": "express",
+    "estimated_delivery_days": 2,
+    "warehouse_id": "WH-US-WEST",
+    "is_gift": false,
+    "payment": {
+      "method": "credit_card",
+      "provider": "Visa",
+      "last_four": "4242",
+      "transaction_id": "txn-f9e8d7c6-b5a4-f3e2-d1c0-b9a8f7e6d5c4",
+      "currency": "USD",
+      "status": "success"
+    },
+    "device": {
+      "device_type": "desktop",
+      "os": "macOS",
+      "browser": "Chrome",
+      "app_version": "3.2.1",
+      "screen_resolution": "2560x1440"
+    },
+    "geo": {
+      "country": "United States",
+      "country_code": "US",
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.052235,
+      "longitude": -118.243683,
+      "timezone": "America/Los_Angeles"
+    },
+    "customer_order_count": 7,
+    "customer_total_spend": 1847.23
+  },
+  {
+    "event_id": "f8i6e5h4-2g1f-7e6i-f5h4-3d2e1f0g9h8i",
+    "event_type": "purchase",
+    "timestamp": "2024-03-15T14:33:22.887654+00:00",
+    "user_id": "b2c3d4e5-f6a7-8901-bcde-fa2345678901",
+    "session_id": "u1h0g9f8-e7d6-c5b4-a3f2-e1d0c9b8a7f6",
+    "order_id": "ORD-65109238",
+    "items": [
+      {
+        "product_id": "P002",
+        "product_name": "Ultra-Slim Laptop 15\"",
+        "category": "Electronics",
+        "subcategory": "Computers",
+        "brand": "TechPro",
+        "sku": "TP-ULT-015",
+        "price": 999.99,
+        "quantity": 1,
+        "discount_pct": 0.15,
+        "final_price": 849.99
+      }
+    ],
+    "item_count": 1,
+    "subtotal": 849.99,
+    "tax": 76.50,
+    "shipping_cost": 0.0,
+    "discount_amount": 150.00,
+    "order_total": 776.49,
+    "coupon_code": "SAVE15",
+    "shipping_method": "overnight",
+    "estimated_delivery_days": 1,
+    "warehouse_id": "WH-EU-CENTRAL",
+    "is_gift": true,
+    "payment": {
+      "method": "paypal",
+      "provider": "PayPal",
+      "last_four": null,
+      "transaction_id": "txn-a0b9c8d7-e6f5-a4b3-c2d1-e0f9a8b7c6d5",
+      "currency": "EUR",
+      "status": "success"
+    },
+    "device": {
+      "device_type": "mobile",
+      "os": "Android",
+      "browser": "Chrome",
+      "app_version": "4.1.0",
+      "screen_resolution": "1080x2400"
+    },
+    "geo": {
+      "country": "Germany",
+      "country_code": "DE",
+      "city": "Berlin",
+      "state": "BE",
+      "latitude": 52.520008,
+      "longitude": 13.404954,
+      "timezone": "Europe/Berlin"
+    },
+    "customer_order_count": 23,
+    "customer_total_spend": 12456.78
+  }
+]
